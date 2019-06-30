@@ -1,0 +1,3 @@
+# choose the best model
+# 1. then add current speaker embedding at the end
+# 2. just use the speaker prune the labels

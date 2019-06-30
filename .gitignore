@@ -1,0 +1,26 @@
+# for python
+*.pyc
+.python-version
+
+# for project
+**/dev
+**/workdir
+**/bak
+**/data
+*.log
+
+# for emacs
+.projectile
+\#*\#
+.\#*
+.flake8
+.dir-locals.el
+
+# for vim
+*.swp
+
+# for mac
+.DS_Store
+
+# for md toc
+gh-md-toc
