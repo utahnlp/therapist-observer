@@ -6,8 +6,8 @@ Therapist-Observer
 ==================
 
 This repo implements a family of neural components for various hierarchical
-dialogue models described in "Observing Dialogue in Therapy:
-Categorizing and Forcasting Behavioral Codes" By Cao et al. in
+dialogue models described in ["Observing Dialogue in Therapy:
+Categorizing and Forcasting Behavioral Codes"](https://arxiv.org/pdf/1907.00326.pdf) By Cao et al. in
 ACL 2019.
 ```
  @inproceedings{cao2019observing,
