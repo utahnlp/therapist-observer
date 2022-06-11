@@ -280,14 +280,14 @@ For client, the best model does not need any word or utterance attention.
 |---------------------------------------------------------------------------------------|:--------:|:------------:|:--------:|:--------:|
 | Majority                                                                              | 30.6     | **__91.7__** | 0.0      | 0.0      |
 | [Xiao et al. (2016)](http://scuba.usc.edu/pdf/xiao2016_behavioral-codi.pdf)           | 50.0     | 87.9         | 32.8     | __29.3__ |
-| [BiGRU_generic_C](../../tree/master/Expt/psyc_scripts/configs/categorizing/selected/BiGRU_generic_C.sh) | __50.2__ | 87.0         | __35.2__ | 28.4     |
-| [BiGRU_ELMo_C](Expt/psyc_scripts/configs/categorizing/selected/BiGRU_ELMo_C.sh)       | 52.9     | 87.6         | **39.2** | 32.0     |
+| [BiGRU_generic_C](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/BiGRU_generic_C.sh) | __50.2__ | 87.0         | __35.2__ | 28.4     |
+| [BiGRU_ELMo_C](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/BiGRU_ELMo_C.sh)       | 52.9     | 87.6         | **39.2** | 32.0     |
 | [Can et al. (2015)](https://sail.usc.edu/publications/files/dogan-is150788.pdf)       | 44.0     | 91.0         | 20.0     | 21.0     |
 | [Tanana et al. (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4842096/)         | 48.3     | 89.0         | 29.0     | 27.0     |
-| [CONCAT_C_C](Expt/psyc_scripts/configs/categorizing/selected/CONCAT_C_C.sh)           | 51.8     | 86.5         | 38.8     | 30.2     |
-| [GMGRU_H_C_C](Expt/psyc_scripts/configs/categorizing/selected/GMGRU_H_C_C.sh)         | 52.6     | 89.5         | 37.1     | 31.1     |
-| [BiDAF_H_C_C](Expt/psyc_scripts/configs/categorizing/selected/BiDAF_H_C_C.sh)         | 50.4     | 87.6         | 36.5     | 27.1     |
-| [Our Best](Expt/psyc_scripts/configs/categorizing/selected/C_C.sh)                    | **53.9** | 89.6         | 39.1     | **33.1** |
+| [CONCAT_C_C](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/CONCAT_C_C.sh)           | 51.8     | 86.5         | 38.8     | 30.2     |
+| [GMGRU_H_C_C](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/GMGRU_H_C_C.sh)         | 52.6     | 89.5         | 37.1     | 31.1     |
+| [BiDAF_H_C_C](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/BiDAF_H_C_C.sh)         | 50.4     | 87.6         | 36.5     | 27.1     |
+| [Our Best](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/C_C.sh)                    | **53.9** | 89.6         | 39.1     | **33.1** |
 | Change                                                                               | **+3.5** | **-2.1**     | **+3.9** | **+3.8** |
 
 
@@ -297,14 +297,14 @@ For the therapist, it uses GMGRUH for word attention and ANCHOR42 for utterance 
 |---------------------------------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:---------:|
 | Majority                                                                              | 5.87     | 47.0     | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      | 0.0       |
 | [Xiao et al. (2016)](http://scuba.usc.edu/pdf/xiao2016_behavioral-codi.pdf)           | 59.3     | __94.7__ | 50.2     | 48.3     | 71.9     | 68.7     | 80.1     | 54.0     | 6.5       |
-| [BiGRU_generic_T](Expt/psyc_scripts/configs/categorizing/selected/BiGRU_generic_T.sh) | __60.2__ | 94.5     | __50.5__ | __49.3__ | 72.0     | 70.7     | 80.1     | __54.0__ | __10.8__  |
-| [BiGRU_ELMo_T](Expt/psyc_scripts/configs/categorizing/selected/BiGRU_ELMo_T.sh)       | 62.6     | 94.5     | 51.6     | 49.4     | 70.7     | 72.1     | 80.8     | 57.2     | 24.2      |
+| [BiGRU_generic_T](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/BiGRU_generic_T.sh) | __60.2__ | 94.5     | __50.5__ | __49.3__ | 72.0     | 70.7     | 80.1     | __54.0__ | __10.8__  |
+| [BiGRU_ELMo_T](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/BiGRU_ELMo_T.sh)       | 62.6     | 94.5     | 51.6     | 49.4     | 70.7     | 72.1     | 80.8     | 57.2     | 24.2      |
 | [Can et al. (2015)](https://sail.usc.edu/publications/files/dogan-is150788.pdf)       | -        | 94.0     | 49.0     | 45.0     | __74.0__ | __72.0__ | __81.0__ | -        | -         |
 | [Tanana et al. (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4842096/)         | -        | 94.0     | 48.0     | 39.0     | 69.0     | 68.0     | 77.0     | -        | -         |
-| [CONCAT_C_T](Expt/psyc_scripts/configs/categorizing/selected/CONCAT_C_T.sh)           | 61.0     | 94.5     | 54.6     | 34.3     | 73.3     | 73.6     | 81.4     | 54.6     | 22.0      |
-| [GMGRU_H_C_T](Expt/psyc_scripts/configs/categorizing/selected/GMGRU_H_C_T.sh)         | 64.9     | 94.9     | **56.0** | 54.4     | **75.5** | **75.7** | **83.0** | **58.2** | 21.8      |
-| [BiDAF_H_C_T](Expt/psyc_scripts/configs/categorizing/selected/BiDAF_H_C_T.sh)         | 63.8     | 94.7     | 55.9     | 49.7     | 75.4     | 73.8     | 80.0     | 56.2     | 24.0      |
-| [Our Best](Expt/psyc_scripts/configs/categorizing/selected/C_T.sh)                    | **65.4** | **95.0** | 55.7     | **54.9** | 74.2     | 74.8     | 82.6     | 56.6     | **29.7**  |
+| [CONCAT_C_T](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/CONCAT_C_T.sh)           | 61.0     | 94.5     | 54.6     | 34.3     | 73.3     | 73.6     | 81.4     | 54.6     | 22.0      |
+| [GMGRU_H_C_T](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/GMGRU_H_C_T.sh)         | 64.9     | 94.9     | **56.0** | 54.4     | **75.5** | **75.7** | **83.0** | **58.2** | 21.8      |
+| [BiDAF_H_C_T](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/BiDAF_H_C_T.sh)         | 63.8     | 94.7     | 55.9     | 49.7     | 75.4     | 73.8     | 80.0     | 56.2     | 24.0      |
+| [Our Best](../../tree/master/Expt/psyc-scripts/configs/categorizing/selected/C_T.sh)                    | **65.4** | **95.0** | 55.7     | **54.9** | 74.2     | 74.8     | 82.6     | 56.6     | **29.7**  |
 | Change                                                                                | **+5.2** | **+0.3** | **+3.9** | **+3.8** | **+0.2** | **+2.8** | **+1.6** | **+2.6** | **+18.9** |
 
 
@@ -315,21 +315,21 @@ For both client and therapist, the best model uses no word attention, and uses S
 | Method                                                                       | Dev      | Dev      | Test     | Test | Test     | Test     |
 |------------------------------------------------------------------------------|:--------:|:--------:|:--------:|:----:|:--------:|:--------:|
 |                                                                              | CHANGE   | SUSTAIN  | macro    | FN   | CHANGE   | SUSTAIN  |
-| [CONCAT_F_C](Expt/psyc_scripts/configs/forecasting/selected/CONCAT_F_C.sh)   | 20.4     | 30.2     | 43.6     | 84.4 | 23.0     | **23.5** |
-| [HGRU_F_C](Expt/psyc_scripts/configs/forecasting/selected/HGRU_F_C.sh)       | 19.9     | 31.2     | **44.4** | 85.7 | **24.9** | 22.5     |
-| [GMGRU_H_F_C](Expt/psyc_scripts/configs/forecasting/selected/GMGRU_H_F_C.sh) | 19.4     | 30.5     | 44.3     | 87.1 | 23.3     | 22.4     |
-| [Forecast_C](Expt/psyc_scripts/configs/forecasting/selected/F_C.sh)          | **21.1** | **31.3** | 44.3     | 85.2 | 24.7     | 22.7     |
+| [CONCAT_F_C](../../tree/master/Expt/psyc-scripts/configs/forecasting/selected/CONCAT_F_C.sh)   | 20.4     | 30.2     | 43.6     | 84.4 | 23.0     | **23.5** |
+| [HGRU_F_C](../../tree/master/Expt/psyc-scripts/configs/forecasting/selected/HGRU_F_C.sh)       | 19.9     | 31.2     | **44.4** | 85.7 | **24.9** | 22.5     |
+| [GMGRU_H_F_C](../../tree/master/Expt/psyc-scripts/configs/forecasting/selected/GMGRU_H_F_C.sh) | 19.4     | 30.5     | 44.3     | 87.1 | 23.3     | 22.4     |
+| [Forecast_C](../../tree/master/Expt/psyc-scripts/configs/forecasting/selected/F_C.sh)          | **21.1** | **31.3** | 44.3     | 85.2 | 24.7     | 22.7     |
 
 
 Except for R@3, all others are F1 score.
 
 | Method                                                                                 | R@3      | macro    | FA       | RES      | REC      | GI       | QUC      | QUO      | MIA      | MIN      |
 |:--------------------------------------------------------------------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| [CONCAT_F_T](Expt/psyc_scripts/configs/forecasting/selected/CONCAT_F_T.sh)             | 72.5     | 23.5     | 63.5     | 0.6      | 0.0      | 53.7     | 27.0     | 15.0     | 18.2     | 9.0      |
-| [HGRU_generic_F_T](Expt/psyc_scripts/configs/forecasting/selected/HGRU_generic_F_T.sh) | 76.8     | 24.0     | 71.0     | 2.7      | 20.5     | 58.8     | 27.5     | 12.9     | 15.2     | 1.6      |
-| [HGRU_F_T](Expt/psyc_scripts/configs/forecasting/selected/HGRU_F_T.sh)                 | 76.0     | 28.6     | 71.4     | 12.7     | **24.9** | 58.3     | 28.8     | 5.9      | **17.4** | 9.7      |
-| [GMGRU_H_F_T](Expt/psyc_scripts/configs/forecasting/selected/GMGRU_H_F_T.sh)           | 76.6     | 26.6     | **72.6** | 10.2     | 20.6     | 58.8     | 27.4     | 6.0      | 8.9      | 7.9      |
-| [Forecase_T](Expt/psyc_scripts/configs/forecasting/selected/F_T.sh)                    | **77.0** | **31.1** | 71.9     | **19.5** | 24.7     | **59.2** | **29.1** | **16.4** | 15.2     | **12.8** |
+| [CONCAT_F_T](../../tree/master/Expt/psyc-scripts/configs/forecasting/selected/CONCAT_F_T.sh)             | 72.5     | 23.5     | 63.5     | 0.6      | 0.0      | 53.7     | 27.0     | 15.0     | 18.2     | 9.0      |
+| [HGRU_generic_F_T](../../tree/master/Expt/psyc-scripts/configs/forecasting/selected/HGRU_generic_F_T.sh) | 76.8     | 24.0     | 71.0     | 2.7      | 20.5     | 58.8     | 27.5     | 12.9     | 15.2     | 1.6      |
+| [HGRU_F_T](../../tree/master/Expt/psyc-scripts/configs/forecasting/selected/HGRU_F_T.sh)                 | 76.0     | 28.6     | 71.4     | 12.7     | **24.9** | 58.3     | 28.8     | 5.9      | **17.4** | 9.7      |
+| [GMGRU_H_F_T](../../tree/master/Expt/psyc-scripts/configs/forecasting/selected/GMGRU_H_F_T.sh)           | 76.6     | 26.6     | **72.6** | 10.2     | 20.6     | 58.8     | 27.4     | 6.0      | 8.9      | 7.9      |
+| [Forecase_T](../../tree/master/Expt/psyc-scripts/configs/forecasting/selected/F_T.sh)                    | **77.0** | **31.1** | 71.9     | **19.5** | 24.7     | **59.2** | **29.1** | **16.4** | 15.2     | **12.8** |
 
 
 # Part VI. Usage for Other Dataset or Tasks
