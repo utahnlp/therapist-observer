@@ -280,7 +280,7 @@ For client, the best model does not need any word or utterance attention.
 |---------------------------------------------------------------------------------------|:--------:|:------------:|:--------:|:--------:|
 | Majority                                                                              | 30.6     | **__91.7__** | 0.0      | 0.0      |
 | [Xiao et al. (2016)](http://scuba.usc.edu/pdf/xiao2016_behavioral-codi.pdf)           | 50.0     | 87.9         | 32.8     | __29.3__ |
-| [BiGRU_generic_C](Expt/psyc_scripts/configs/categorizing/selected/BiGRU_generic_C.sh) | __50.2__ | 87.0         | __35.2__ | 28.4     |
+| [BiGRU_generic_C](../../tree/master/Expt/psyc_scripts/configs/categorizing/selected/BiGRU_generic_C.sh) | __50.2__ | 87.0         | __35.2__ | 28.4     |
 | [BiGRU_ELMo_C](Expt/psyc_scripts/configs/categorizing/selected/BiGRU_ELMo_C.sh)       | 52.9     | 87.6         | **39.2** | 32.0     |
 | [Can et al. (2015)](https://sail.usc.edu/publications/files/dogan-is150788.pdf)       | 44.0     | 91.0         | 20.0     | 21.0     |
 | [Tanana et al. (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4842096/)         | 48.3     | 89.0         | 29.0     | 27.0     |
